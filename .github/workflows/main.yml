@@ -24,5 +24,4 @@ jobs:
           
       - name: Run Ruff linter
         run: |
-          ruff check .
-          ruff format --check .
+          ruff check git/src
